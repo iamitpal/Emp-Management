@@ -1,0 +1,31 @@
+table,
+td,
+th {
+  border: 1px solid white;
+  text-align: left;
+}
+table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+th,
+td {
+  padding: 15px;
+}
+tr > th {
+  background-color: #9acd32;
+  color: black;
+}
+
+#filter {
+  border: none;
+  margin: auto;
+  display: block;
+  width: 20%;
+  font-size: 20px;
+  padding: 0.5%;
+  margin-top: 1%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 2px;
+}
